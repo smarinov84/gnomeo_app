@@ -46,7 +46,7 @@ pnpm build && pnpm preview
 ## Architecture diagram (current MVP)
 
 ```mermaid
-flowchart TD
+  flowchart TD
   subgraph UI[Web App (React + Vite)]
     A[Home / Landing]\nCTA: Get started
     B[AuthModal]\nEmail + Password
